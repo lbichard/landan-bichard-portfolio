@@ -1,0 +1,60 @@
+.header {
+        padding: 20px;
+    color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    }
+
+    .header ul {
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    list-style-type: none;
+    }
+
+    #about-me, #work {
+        color: blueviolet;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 80px;
+    }
+
+    .image-button:hover {
+        filter: saturate(2);
+        
+    }
+
+   #mod1 {
+    margin-right: 40px;
+    justify-content: center
+   }
+
+   #led-wall {
+
+   }
+
+   #contact {
+    display: flex;
+    padding: 20px;
+    
+
+   }
+
+   footer ul {
+    list-style-type: none;
+    padding: 15px;
+    gap: 50px;
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   @media screen and (max-width: 1300px) {
+    #mod1 {
+        width:100%;
+    }
+   }
